@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery.js"></script>
+</head>
+<body>
+	<script>
+		$(document).ready(function(){
+			$("button.btn").click(function(){
+				$("#text").hide();
+				$("p.txt").hide();
+			})
+		})
+		$(document).ready(function(){
+			$("button.btn1").click(function(){
+				$("p.txt1").css("background","red");
+			})
+		})
+
+		$(document).ready(function(){
+			$("button#btn").click(function(){
+				$("p.txt2").text("jqrery仍在运行！")
+			})
+		})
+		$(document).ready(function(){
+			$("button.btn3").dblclick(function(){
+				$("input#text1").focus();
+				$("button.btn3").text("单机获取另一个焦点！")
+			})
+		})
+		$(document).ready(function(){
+			$("button.btn3").click(function(){
+				$("input#text").focus();
+			})
+		})
+		$(document).ready.(function(){
+			$(button#text2).click(function(){
+				$("p#text").show();
+			})
+		})
+	</script>
+	<button id="text2">显示</button>
+	<input type="text" id="text" placeholder="text">
+	<input type="text" id="text1" placeholder="text1">
+	<button class="btn3">双击获取焦点</button>
+	<button class="btn">隐藏</button>
+	<button class="btn1">隐藏1</button>
+	<button id="btn">click me</button>
+	<p id="text">我是一段话，用来演示隐藏功能的</p>
+	<p class="txt">我是另一段话，也是用来演示类的影藏功能</p>
+	<p class="txt1">我是用来显示类别选择器的</p>
+	<p class="txt2">jquery在运行</p>
+</body>
+</html>

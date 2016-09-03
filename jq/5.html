@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery.js"></script>
+</head>
+<body>
+	<script>
+		$(document).ready(function(){
+			$("button#btn").click(function(){
+				$("p.text").slideToggle(10000);
+			})
+		})
+
+		$(document).ready(function(){
+			$("button#btn1").click(function(){
+				$("div#div1").fadeToggle();
+				$("div#div2").fadeToggle("slow");
+				$("div#div3").fadeToggle(3000);
+			})
+		})
+		i=90;
+		$(document).ready(function(){
+			$("input#txt").keypress(function(){
+				$("span#number").text(i-=1);
+			})
+		})
+	</script>
+	<p class="text">此段文字是为了演示</p>
+	<button id="btn">toggle</button>
+	<button id="btn1">fadeToggle</button>
+	<div id="div1" style="background-color:red;width:80px;height:80px;"></div>
+	<div id="div2" style="background-color:green;width:80px;height:80px;"></div>
+	<div id="div3" style="background-color:blue;width:80px;height:80px;"></div>
+	<span>Enter your name:</span>
+	<input type="text" id="txt">
+	<p>Keypresses:<span id="number">90</span></p>
+</body>
+</html>
