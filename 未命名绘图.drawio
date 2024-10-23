@@ -8,16 +8,25 @@
           <mxGeometry x="250" y="220" width="350" height="260" as="geometry" />
         </mxCell>
         <mxCell id="qnHwdaOveCbN0DN6fGn--2" value="公共" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="230" width="80" height="30" as="geometry" />
+          <mxGeometry x="280" y="230" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qnHwdaOveCbN0DN6fGn--3" value="价值：简单、记录、传达" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="160" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qnHwdaOveCbN0DN6fGn--4" value="个人" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="230" width="80" height="30" as="geometry" />
+          <mxGeometry x="400" y="230" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qnHwdaOveCbN0DN6fGn--5" value="他人" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="511" y="230" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnHwdaOveCbN0DN6fGn--6" value="记录事项。。。。。。。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qnHwdaOveCbN0DN6fGn--8" value="..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnHwdaOveCbN0DN6fGn--10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="40" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
